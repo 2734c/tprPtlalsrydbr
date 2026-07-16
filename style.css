@@ -210,3 +210,28 @@ ul li{
 
 }
 
+
+
+
+h2{
+  color:#00f7ff;
+  margin-bottom:25px;
+  font-size:2rem;
+
+  animation:titleGlow 2s infinite alternate;
+}
+
+@keyframes titleGlow{
+  from{
+    text-shadow:
+      0 0 5px #00f7ff,
+      0 0 10px #00f7ff;
+  }
+
+  to{
+    text-shadow:
+      0 0 15px #00f7ff,
+      0 0 30px #00f7ff,
+      0 0 50px #00ff99;
+  }
+}
